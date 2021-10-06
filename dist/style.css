@@ -1,0 +1,236 @@
+body {
+  font-family:'Lexend Deca', sans-serif;
+  font-size:11px;
+  color:hsla(0, 0%, 100%, 0.75);
+  
+}
+.card{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  transform:translateY(120px); 
+}
+
+.card1{
+  transition: 0.3s;
+  width: 30%;
+  display:inline-block;
+  margin-left:-3px;
+  border-radius:5px 0 0 5px;
+  border:rgba(0,0,0,0.2);
+  box-shadow:0 4px 8px 0
+rgba(0,0,0,0.2);
+  height:545px;
+  width:400px;
+  margin-bottom:150px;
+  padding-left:-60px;
+  background-color: hsl(31, 77%, 52%)
+
+}
+.card2 {
+  transition: 0.3s;
+  width: 30%;
+  display:inline-block;
+  margin-left:-1px;
+  box-shadow:0 4px 8px 0
+rgba(0,0,0,0.2);
+  height:545px;
+  width:400px;
+  margin-bottom:150px;
+  background-color:hsl(184, 100%, 22%)
+}
+.card3 {
+  transition: 0.3s;
+  width: 30%;
+  display:inline-block;
+  margin-left:-1px;
+  border-radius:0 5px 5px 0;
+  box-shadow:0 4px 8px 0
+rgba(0,0,0,0.2);
+  height:545px;
+  width:400px;
+  margin-bottom:150px;
+  background-color:hsl(179, 100%, 13%)
+}
+
+/*.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}*/
+.card1 img{
+  width:80px;
+  height:80px;
+  float:left;
+  transform:translateX(127px)
+}
+.card1 p{
+  transform:translateY(80px);
+  text-align:left;
+  line-height:25px;
+  width:70%;
+  float:left;
+  padding:0 40px;
+}
+.card1 h2{
+  text-align:left;
+  transform:translateY(120px);
+  padding:0 -20px;
+  margin:15px -35px;
+  float:left;
+  font-weight:700;
+  
+}
+.card1 button{
+  border-radius:25px;
+  transform:translateY(80px);
+  float:left;
+  display:flex;
+  margin-left:42px;
+  margin-top:45px;
+  align-items:center;
+  justify-content:center;
+  width:150px;
+  padding:15px 0;
+  background-color:white;
+  color:hsl(31, 77%, 52%);
+  border-color: white white white white;
+  font-weight:700;
+  border: 2px solid white;
+}
+.card2 img{
+  width:80px;
+  height:80px;
+  float:left;
+  transform:translateX(127px)
+}
+.card2 p{
+  transform:translateY(80px);
+  float:left;
+  text-align:left;
+  line-height:25px;
+  width:70%;
+  padding:0 40px;
+  
+}
+.card2 h2{
+  text-align:left;
+  transform:translateY(120px);
+  padding:0 -20px;
+  margin:15px -35px;
+  float:left;
+  
+}
+.card2 button{
+  border-radius:25px;
+  transform:translateY(80px);
+  float:left;
+  display:flex;
+  margin-left:42px;
+  margin-top:45px;
+  background:transparent;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  width:150px;
+  padding:15px 0;
+  border-color: white;
+  color:hsl(184, 100%, 22%);
+  background-color:white;
+  border: 2px solid white;
+  font-weight:700;
+}
+.card3 img{
+  width:80px;
+  height:80px;
+  float:left;
+  transform:translateX(127px)
+}
+.card3 p{
+  transform:translateY(80px);
+  text-align:left;
+  line-height:25px;
+  width:70%;
+  float:left;
+  padding:0 40px;
+  
+  
+}
+.card3 h2{
+  text-align:left;
+  transform:translateY(120px);
+  padding:0 -20px;
+  margin:15px -35px;
+  float:left;
+}
+.card3 button{
+  border-radius:25px;
+  transform:translateY(80px);
+  float:left;
+  display:flex;
+  margin-left:42px;
+  margin-top:45px;
+  background:transparent;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  width:150px;
+  padding:15px 0;
+  border-color: white white white white;
+  background-color:white;
+  color:hsl(179, 100%, 13%);
+  border: 2px solid white;
+  font-weight:700;
+}
+/*.card3 button:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+}
+.card2 button:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+}
+.card1 button:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+}*/
+@media(max-width:858px){
+  .card{
+    display:block;
+  }
+  .card1{
+    margin-bottom:-3px;
+    border-radius:5px 5px 0px 0;
+    margin-left:-1px;
+  }
+  .card3(max-width:812px){
+    margin-top:-153px;
+    border-radius:0 0px 5px 5px;
+  }
+
+}
+@media{
+  .card1 button{
+    transform:translateY(38px);
+    
+  }
+  .card2 button{
+    transform:translateY(38px);
+    
+  }
+  .card3 button{
+    transform:translateY(38px);
+    
+  }
+}
+
+.container {
+  padding: 1px 1px;
+  margin-left: 5px;
+  
+}
